@@ -119,3 +119,10 @@ bazuka status Get status of a node
 bazuka withdraw Withdraw funds from a Zero-Contract
 bazuka zsend Send funds through a zero-transaction
 ```
+#### In order to update the version, use the command 
+```
+cd bazuka
+git pull origin master
+cargo update
+cargo install --path .
+```
